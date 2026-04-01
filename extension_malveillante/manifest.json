@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Extension Malveillante (Démo)",
+  "version": "1.0",
+  "description": "Simulation d'une extension qui lit les données sensibles de la page (PoC Arcanum).",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>",
+        "file:///*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
