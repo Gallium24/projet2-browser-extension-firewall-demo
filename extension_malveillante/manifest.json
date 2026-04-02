@@ -5,13 +5,9 @@
   "description": "Simulation d'une extension qui lit les données sensibles de la page (PoC Arcanum).",
   "content_scripts": [
     {
-      "matches": [
-        "<all_urls>",
-        "file:///*"
-      ],
-      "js": [
-        "content.js"
-      ]
+      "matches": ["<all_urls>", "file:///*"],
+      "js": ["content_script.js"],
+      "world": "MAIN" 
     }
   ]
 }

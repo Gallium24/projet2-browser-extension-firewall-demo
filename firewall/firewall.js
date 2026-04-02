@@ -11,8 +11,9 @@ const originalFetch = window.fetch;
 // définit la règle du pare-feu : la donnée sensible à protéger
 // Dans un vrai système, cela serait dynamique. Pour la démo, on cible la carte.
 const donneesSensibles = [
-    "4500-1234-5678-9012", // Le numéro de carte nu
-    encodeURIComponent("Numéro de carte : 4500-1234-5678-9012") // La version encodée par l'extension
+    "4500-1234-5678-9012",//Le numéro de la carte
+    encodeURIComponent("Numéro de carte : 4500-1234-5678-9012"), // La version encodée par l'extensio
+    "stolen_data"          //Le mot-clé suspect
 ];
 
 // remplace la fonction 'fetch' par notre propre fonction de filtrage (Monkey Patching)
