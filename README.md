@@ -29,7 +29,7 @@ Suivez ces étapes pour reproduire la démonstration.
 ### Étape 2 : Acte 1 - La vulnérabilité (Sans le pare-feu)
 1. Dans VS Code, allez dans l'onglet *Extension*.
 2. Recherchez et installez l'extension **Live Server**.
-3. Une fois installé, ouvrez le projet et effectuez un clic droit sur le fichier `index.html` (situé dans `/page_victime`), selectionnez `Open with Live Server`.
+3. Une fois installé, ouvrez le projet et effectuez un clic droit sur le fichier `index.html` (situé dans `/page_victime`), sélectionnez `Open with Live Server`.
 4. Le navigateur s'ouvrira sur une adresse de type `http://127.0.0.1:5500`. 
 5. Ouvrez les outils de développement (Touche **F12** ou Clic droit -> **Inspecter**).
 6. Allez dans l'onglet **Console**. Vous verrez que l'extension a lu le faux numéro de carte de crédit.
@@ -38,7 +38,7 @@ Suivez ces étapes pour reproduire la démonstration.
 ### Étape 3 : Acte 2 - Activation du Pare-feu (La Perspective)
 1. Ouvrez le fichier `index.html` dans un éditeur de texte ou de code (VS Code, Notepad, etc.).
 2. À la toute fin du fichier, juste avant la balise `</body>`, **décommentez** la ligne d'appel du script du pare-feu.
-   * *Effacez :* <!-- -->
+   * *Effacez :* `<!-- -->`
    * *Laissez uniquement :* `<script src="../pare_feu/firewall.js"></script>`
 3. Sauvegardez le fichier `index.html`.
 
