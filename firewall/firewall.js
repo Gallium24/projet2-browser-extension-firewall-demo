@@ -3,7 +3,7 @@
 // Perspective : Pare-feu de contenu pour bloquer l'exfiltration de données
 // ============================================================================
 
-console.log("🛡️ Pare-feu Arcanum activé. Surveillance des requêtes réseau en cours...");
+console.log("Pare-feu Arcanum activé. Surveillance des requêtes réseau en cours...");
 
 // sauvegarde la fonction native 'fetch' du navigateur avant de la modifier
 const originalFetch = window.fetch;
