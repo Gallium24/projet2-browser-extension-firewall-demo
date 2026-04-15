@@ -52,6 +52,6 @@ window.fetch = async function() {
         return Promise.reject(new Error("Connexion bloquée par la politique de sécurité du Pare-feu de Contenu."));
     }
 
-    // 6. Si tout est propre, on laisse la requête normale s'exécuter
+    // Si tout est propre, on laisse la requête normale s'exécuter
     return originalFetch.apply(this, arguments);
 };
