@@ -1,8 +1,6 @@
 # Projet Pratique 2 : Arcanum - Pare-feu de Contenu (Proof of Concept)
 
-Ce dépôt contient la démonstration (proof of concept) simplifiée réalisée dans le cadre du Projet Pratique 2. L'objectif est d'illustrer une perspective d'amélioration issue de l'article scientifique : *Arcanum: Detecting and Evaluating the Privacy Risks of Browser Extensions on Web Pages and Web Content*.
-
-**Avertissement :** Conformément aux contraintes du projet, ce code ne contient aucun hacking, aucune attaque réelle, ni aucune collecte de données sensibles.
+Ce dépôt contient la démonstration (proof of concept) simplifiée réalisée dans le cadre du Projet Pratique 2. L'objectif est d'illustrer une perspective d'amélioration issue de l'article scientifique : [*Arcanum: Detecting and Evaluating the Privacy Risks of Browser Extensions on Web Pages and Web Content*](https://www.usenix.org/conference/usenixsecurity24/presentation/xie-qinge).
 
 ## Structure du Projet
 
